@@ -1,7 +1,7 @@
 Skip Apple Setup Assistant
 ==========================
 
-This repository contains a script to build a package that when installed, on a system image or as part of an OS deployment workflow, disables Apple's first boot setup assistant. You can download a prebuilt, signed, flat package from the [releases page](/MagerValp/SkipAppleSetupAssistant/releases).
+This repository contains a script to build a package that when installed, on a system image or as part of an OS deployment workflow, disables Apple's first boot setup assistant. You can download a prebuilt, signed, flat package from the [releases page](//github.com/MagerValp/SkipAppleSetupAssistant/releases).
 
 The package consists of two empty, hidden files, that when present in a system prevents the setup assistant from running:
 
