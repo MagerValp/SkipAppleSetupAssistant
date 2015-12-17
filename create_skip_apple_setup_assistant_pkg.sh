@@ -12,7 +12,7 @@ declare -r PKGSIGNER="Developer ID Installer: University of Gothenburg"
 set -e
 
 
-tmpdir=$(mktemp -d -t createlionuser)
+tmpdir=$(mktemp -d -t skipapplesetup)
 trap "rm -rf \"$tmpdir\"" EXIT
 
 
