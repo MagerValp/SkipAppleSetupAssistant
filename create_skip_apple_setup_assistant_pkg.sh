@@ -3,7 +3,7 @@
 
 declare -r PKGTITLE="Skip Apple Setup Assistant"
 declare -r PKGNAME="SkipAppleSetupAssistant"
-declare -r PKGVERSION="1.0"
+declare -r PKGVERSION="1.0.1"
 declare -r PKGID="com.github.magervalp.SkipAppleSetupAssistant.pkg"
 # Replace with your developer ID.
 declare -r PKGSIGNER="Developer ID Installer: University of Gothenburg"
