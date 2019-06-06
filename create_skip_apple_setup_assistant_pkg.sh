@@ -51,4 +51,4 @@ xmllint --output "$dist" --format "$tmpdist"
 
 productbuild --distribution "$dist" --package-path "$tmpdir" "$unsigned_dist_pkg"
 
-productsign --sign "$PKGSIGNER" "$unsigned_dist_pkg" "$signed_dist_pkg"
+productsign --timestamp --sign "$PKGSIGNER" "$unsigned_dist_pkg" "$signed_dist_pkg"
